@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font: normal 16px 'Roboto', sans-serif;
+  font-weight: none;
+
+  /* font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif; */
+}
+
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+
+
+.oleg_Photo {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+  /* id уникальны с #, class не уникальны с .*/
+}
+
+.info p {
+  color: #000;
+  margin: 0px;  /* Отступы */
+  font-style: italic; /* Разный курсив */
+  font-weight: 0; /* Толщина букв */
+  /* text-decoration: underline; Навешивать линии на текст  */
+  /* text-transform: capitalize; Регистры букв */
+  /* letter-spacing: 15px; Размер отступа между каждым символом */
+  /* word-spacing: 15px; Размеров отступа между словами */
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+
+  }
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+  list-style: normal;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.link-list li {
+  list-style: none;
+  padding: none;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #000;
+  padding: 15px 20px;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* .position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  margin-bottom: 100px;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  bottom: 150px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: lightcoral;
+} */
+
+/* .table tr:nth-child(odd){
+  color: red;
+} */
+
+/* .Social {
+background: #ffe4c4;
+/* padding: 15px; Общие для всех сторон отступы от контента
+  padding-top:;
+  padding-right:;
+  padding-bottom:;
+  padding-left:; относится ко всем значениям ниже
+padding: 5px 10px 5px 10px; /* По часовой сверху вниз
+margin: 0px;
+
+border: 2px solid black;
+border-bottom-style: dotted;
+border-top-width: 10px;
+border-right-color: red;
+} */
+
+/* .box-model > div {
+float: left;
+background: black;
+height: 200px;
+border: 4px solid red;
+width: 25%; ШИРИНА
+box-sizing: border-box; УЧИТЫВАЕТ РАЗМЕР СТРАНИЦЫ}*/
